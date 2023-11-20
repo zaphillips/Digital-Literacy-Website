@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>An Introduction to ChatGPT</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <nav class="navbar navbar-expand-lg" style="background-color: #004080">
+    <div class="container-fluid">
+      <a class="navbar-brand">An Introduction to ChatGPT</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#"
+              style="color: #ff9900"
+              >How it Works</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="limitations.html">Limitations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <body style="color: #333333">
+    <div class="container-fluid w-50 rounded" style="background-color: #414141">
+      <div class="container text-center">
+        <p></p>
+        <h1 style="color: #0077cc">How it Works</h1>
+      </div>
+      <div class="text-md-center">
+        <p></p>
+        <img
+          src="images/pexels-photo-2061168.png"
+          alt="Picture of Code"
+          class="rounded"
+          width="750"
+          height="500"
+        />
+      </div>
+      <div
+        class="container-fluid justify-content-center w-75"
+        style="color: #ffffff"
+      >
+        <p></p>
+        <p>
+          ChatGPT operates based on a sophisticated natural language processing
+          (NLP) model called GPT (Generative Pre-trained Transformer). The heart
+          of the transformer architecture is the attention mechanism, which
+          allows the model to focus on different parts of the input sequence
+          when making predictions. This enables the model to capture long-range
+          dependencies and understand context effectively.
+        </p>
+        <p>
+          GPT is pre-trained in an unsupervised manner on a massive dataset
+          containing parts of the Internet. During this pre-training phase, the
+          model learns to predict the next word in a sentence given the context
+          of the previous words. This helps the model appear to be able to
+          “grasp” grammar, facts, reasoning abilities, and even some level of
+          world knowledge.
+        </p>
+        <p>
+          After pre-training, the model can be fine-tuned on specific tasks or
+          domains. For ChatGPT, fine-tuning involves exposing the model to
+          dialogues and conversations. This fine-tuning process allows the model
+          to appear to “understand” the nuances of conversation, context, and
+          generate relevant responses.
+        </p>
+        <p>
+          The model considers a context window of a fixed length when generating
+          responses. This context window helps in maintaining a sense of
+          continuity in conversation and “understanding” the dependencies
+          between different parts of the text.
+        </p>
+        <p>
+          When generating responses, the model samples from the probability
+          distribution of the next word. The temperature parameter controls the
+          level of randomness in the generated text. Higher temperature values
+          result in more random outputs, while lower values make the outputs
+          more deterministic.
+        </p>
+        <p>
+          Interaction with users is an iterative process. The model generates
+          responses based on the input it receives and learns from the ongoing
+          conversation, adapting its “understanding” of context and user
+          preferences over time.
+        </p>
+        <br />
+        <p class="text-center">
+          <button type="button" class="btn btn-outline-primary text-center">
+            <a href="#">Top of Page</a>
+          </button>
+        </p>
+        <br />
+      </div>
+    </div>
+    <br />
+  </body>
+</html>
